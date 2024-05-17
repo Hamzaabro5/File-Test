@@ -22,27 +22,26 @@
 
 
 
-// // Answer No 2
+// // // Answer No 2
 
 // let arr =  [3, 7, 69, 12, 5, 9 , 86 , 6 , 5];
 
-// let input = prompt(`Write a number of array?`)
+// function findMax(arr) {
+//     let max = arr[0];
 
-// for (let i = 0; i < arr.length; i++) {
-//     // console.log(arr[i]);
-//     // console.log(input);
-
-//     if (input.includes(arr)) {
-//         console.log(`${input} Apka dia hua number array of numbers m mojood h`);
-//     }else if (input >= arr) {
-//         console.log(`${input} Apka dia hua number array of numbers se barha h`);
-//     }else{
-//         console.log(`${input} Apka dia hua number array of numbers se Chota h`);
+//     for (let i = 1; i < arr.length; i++) {
+//         if (arr[i] > max) {
+//             max = arr[i];
+//         }
 //     }
-    
+
+//     return max;
 // }
 
-// // Answer No 2
+// console.log(findMax(arr)); // Output: 86
+
+
+// // // Answer No 2
 
 
 
